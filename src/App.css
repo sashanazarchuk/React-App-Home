@@ -62,3 +62,65 @@ tr td {
   font-weight: normal;
   font-size: 17px;
 }
+
+
+
+header {
+  padding: 6px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 5%;
+  font-size: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.4s;
+}
+
+nav a:hover {
+  background-size: 100% 2px;
+  color: rgb(49, 49, 49);
+}
+
+.author {
+  width: 300px;
+  height: 300px;
+}
+
+.nid {
+  color: blue;
+}
+
+.works {
+  display: flex;
+  align-self: center;
+  margin: 3%;
+}
+
+.works-name {
+  align-self: center;
+  padding: 5%;
+}
+
+.works-container {
+  width: 90%;
+}
+
+
+.main-container {
+  margin: auto;
+  text-align: center;
+}

@@ -45,7 +45,7 @@ export default function Quote(props) {
     }
     return (
 
-        <div key={quote.number} >
+        <div className="main-container" key={quote.number} >
             <h1 id="quote" >{quote.quote}</h1>
             <h2 id="author">{quote.author}</h2>
 
