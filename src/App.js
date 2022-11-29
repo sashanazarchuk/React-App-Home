@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Painting from "./components/Painting";
 import Works from "./components/Works";
+import Profile from "./components/Profile";
 function App() {
 
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="works" element={<Works />} />
           <Route path="quote" element={<Quote />} />
           <Route path="cities" element={<Cities />} />
+          <Route path="profile" element={<Profile />} />
+
         </Routes>
       </main>
     </div>

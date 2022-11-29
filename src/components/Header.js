@@ -21,7 +21,9 @@ export default function Header() {
           <li>
             <Link to="cities">Cities</Link>
           </li>
-      
+          <li>
+            <Link to="profile">Profile</Link>
+          </li>
         </ul>
       </nav>
     </header>
